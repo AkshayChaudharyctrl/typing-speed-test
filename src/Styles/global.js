@@ -50,11 +50,6 @@ body{
 .hiddenInput {
     opacity: 0;
 }
-
-
-
-
-
 .testSeconds:hover {
     color: green;
 }
@@ -135,3 +130,95 @@ body{
 .inCorrect {
     color: red;
 }
+.footer {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.statsBox {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftStats {
+    width: 30%;
+    padding: 30px;
+}
+
+.rightStats {
+    width: 70%;
+}
+
+.title {
+    font-size: 20px;
+    color: ${({ theme }) => theme.typeBoxText}
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.header {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userProfile {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    height: 15rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid ${({ theme }) => theme.typeBoxText}
+}
+
+.user {
+    width: 50%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-right: 2px solid
+}
+
+.info {
+    width: 60%;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.picture {
+    width: 40%;
+}
+
+.totalTest {
+    width: 50%;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table, .graphUserPage {
+    margin: auto;
+    width: 1000px;
+}
+
+.centerOfScreen {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+`
