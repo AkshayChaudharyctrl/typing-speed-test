@@ -192,7 +192,7 @@ body{
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 1.5rem;
+    font-size:1.2rem;
     padding: 1rem;
     border-right: 2px solid
 }
