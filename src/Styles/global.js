@@ -27,17 +27,14 @@ body{
 }
 
 .typingBox {
-    display: block;
-    max-width: 1000px;
-    height:1400px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
 }
 
 .words{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     font-size: 25px;
     color: ${({ theme }) => theme.typeBoxText}
 }
@@ -50,6 +47,11 @@ body{
 .hiddenInput {
     opacity: 0;
 }
+
+
+
+
+
 .testSeconds:hover {
     color: green;
 }
@@ -130,6 +132,8 @@ body{
 .inCorrect {
     color: red;
 }
+
+
 .footer {
     width: 1000px;
     display: flex;
@@ -137,6 +141,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
 .statsBox {
     display: flex;
     width: 1000px;
@@ -221,4 +226,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-`
+
+`;
+    export default GlobalStyles;

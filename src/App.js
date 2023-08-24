@@ -11,8 +11,7 @@ import UserPage from "./Pages/UserPage";
 function App() {
   const { theme } = useTheme();
   return (
-    <div className="canvas">
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
       <ToastContainer/>
       <GlobalStyles />
 
@@ -22,7 +21,6 @@ function App() {
       </Routes>
       
     </ThemeProvider>
-    </div>
   );
 }
 
