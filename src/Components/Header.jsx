@@ -7,7 +7,7 @@ const Header = () => {
 
         <div className='header'>
             <div className='logo'>
-                Logo
+            <img src={logo} style={{ width: '60px' }} />
             </div>
             <div className='userIcon'>
                 <AccountCircle />
